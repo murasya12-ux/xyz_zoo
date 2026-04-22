@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+.animal {
+        background-color: whitesmoke;
+        color: white;
+        border: 2px solid;
+        margin: 20px;
+        padding: 20px;}
+
+body    {
+        background-image: url(daun.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+
+    
+ #myheader {
+        background-color: navajowhite;
+        color: black;
+        padding: 40px;
+        text-align: center;
+    }
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan</title>
+</head>
+<body>
+    <h1 id="myheader">XYZ ZOO</h1>
+    <h2 style="color: white;"><strong>zoo animal list</strong></h1>
+    <img src="hewan/zoo.jpg" width="1000px">
+    <ul>
+        <div class="animal">
+        <li style="color: brown;">Feline</li>
+            <ul>
+                <li style="color: brown;">lynx</li>
+                    <a href="" target="_blank"><img src="hewan/lynx.jpg" alt="lynx" width="500"></a>
+                <li style="color: brown;">Lion</li>
+                    <a href="" target="_blank"><img src="hewan/lion.jpg"alt="Lion" width="500px"></a>
+            </ul>
+        </div>
+        <div class="animal">
+        <li style="color: red;">Canine</li>
+            <ul>
+                <li style="color: red;">Wolf</li>
+                     <a href="" target="_blank"><img src="hewan/wolf.jpg" alt="Wolf"
+                    width="500px"></a>
+                <li style="color: red;">Coyote</li>
+                    <a href="" target="_blank"><img src="hewan/coyote.jpg" alt="Coyote"
+                    width="500px"></a>
+                    <video width="600px" controls>
+                        <source src="video/Coyote Hunts Birds  BBC Earth - BBC Earth (360p, h264).mp4" type="video/mp4">
+                    </video>
+            </ul>
+        </div>
+        <div class="animal">
+        <li style="color: magenta;">Bird</li>
+            <ul>
+                <li style="color: magenta;">Parrot</li>
+                     <a href="" target="_blank"><img src="hewan/parrot.jpg" alt="Parrot"
+                    width="500px"></a>
+                <li style="color: magenta;">Owl</li>
+                     <a href="" target="_blank"><img src="hewan/owl.jpg" alt="Owl"
+                    width="500px"></a>
+            </ul>
+            </div>
+    </ul>
+    <h2 style="color: blue;" id="myheader">Source</h2>
+    <ul>
+        <li style="color: white;">Pexel</li>
+            <a href="https://www.pexels.com/id-id/" target="_blank">pexels</a>
+        <li style="color: white;">Pixebay</li>
+            <a href="https://pixabay.com/id/" target="_blank">pixabay</a>
+    </ul>
+<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Coba pencet</button>
+<p id="demo"></p>
+</body>
+</html>
