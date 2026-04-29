@@ -1,38 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<style>
-.animal {
-        background-color: whitesmoke;
-        color: white;
-        border: 2px solid;
-        margin: 20px;
-        padding: 20px;}
-
-body    {
-        background-image: url(daun.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;}
-
-    
- #myheader {
-        background-color: navajowhite;
-        color: black;
-        padding: 40px;
-        text-align: center;
-    }
-</style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Latihan</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="wrapper">
     <h1 id="myheader">XYZ ZOO</h1>
-    <h2 style="color: white;"><strong>zoo animal list</strong></h1>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="" target="_blank">HOME</a></li>
+            <li><a href="" target="_blank">LIST ANIMAL</a></li>
+            <li><a href="" target="_blank">LOCATION</a></li>
+            <li><a href="" target="_blank">CONTACT</a></li>
+            <li><a href="" target="_blank">ABOUT</a></li>
+        </ul>
+    </nav>
+
+    <h2 id="myheader2"><strong>zoo animal list</strong></h1>
     <img src="hewan/zoo.jpg" width="1000px">
     <ul>
-        <li style="color: brown;">Feline
-        <div class="animal">
+        <div class="listname">
+        <li style="color: brown;">Feline</li>
+            <div class="animal">
             <ul>
                 <li style="color: brown;">lynx</li>
                     <a href="" target="_blank"><img src="hewan/lynx.jpg" alt="lynx" width="500"></a>
@@ -40,8 +33,7 @@ body    {
                     <a href="" target="_blank"><img src="hewan/lion.jpg"alt="Lion" width="500px"></a>
             </ul>
             </div>
-        </li>   
-        <li style="color: red;">Canine
+        <li style="color: red;">Canine</li>
              <div class="animal">
             <ul>
                 <li style="color: red;">Wolf</li>
@@ -50,13 +42,12 @@ body    {
                 <li style="color: red;">Coyote</li>
                     <a href="" target="_blank"><img src="hewan/coyote.jpg" alt="Coyote"
                     width="500px"></a>
-                    <video width="600px" controls>
+                    <video width="500px" controls>
                         <source src="video/Coyote Hunts Birds  BBC Earth - BBC Earth (360p, h264).mp4" type="video/mp4">
                     </video>
             </ul>
             </div>
-        </li>
-        <li style="color: magenta;">Bird
+        <li style="color: magenta;">Bird</li>
              <div class="animal">
             <ul>
                 <li style="color: magenta;">Parrot</li>
@@ -67,7 +58,6 @@ body    {
                     width="500px"></a>
             </ul>
             </div>
-        </li>
     </ul>
     <h2 style="color: blue;" id="myheader">Source</h2>
     <ul>
@@ -76,7 +66,9 @@ body    {
         <li style="color: white;">Pixebay</li>
             <a href="https://pixabay.com/id/" target="_blank">pixabay</a>
     </ul>
+    </div>
 <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Coba pencet</button>
 <p id="demo"></p>
+</div>
 </body>
 </html>

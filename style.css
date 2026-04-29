@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Hachi+Maru+Pop&family=Hina+Mincho&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kiwi+Maru&family=M+PLUS+1p&family=Michroma&family=Mochiy+Pop+P+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Slackside+One&family=Tsukimi+Rounded&family=Yuji+Mai&family=Yuji+Syuku&family=Zen+Antique&display=swap');
+
+
+.animal {
+        background-color: whitesmoke;
+        color: white;
+        border: 2px solid;
+        margin: 20px;
+        padding: 20px;}
+
+.wrapper
+        {
+            margin: 0 auto;
+            width: 1000px;
+        }
+
+.navbar ul
+        {
+        list-style-type: none;
+        background-color: black;
+        padding: 0px;
+        margin: 0;
+        overflow: hidden;
+        }
+
+.navbar a
+        {
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+        text-align: center;
+        }
+
+.navbar a:hover
+        {
+            background-color: white;
+        }        
+
+.navbar li
+        {
+            float: left;
+            font-size: 20px;
+            font-family: "Michroma", sans-serif;
+        }        
+
+body    {
+        background-image: url(daun.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+
+    
+    #myheader 
+    {
+        background-color: navajowhite;
+        color: black;
+        padding: 40px;
+        text-align: center;
+        font-family: "Caveat", cursive;
+    }
+
+    #myheader2
+    {
+          font-family: "Caveat", cursive;
+          padding: 25px;
+          color: white;
+          font-size: 45px;
+    }
+
+    .listname
+    {
+        font-family: "Michroma", sans-serif;
+        font-size: 15px;
+        padding: 10px;
+        color: tomato;
+    }
